@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donors informations</title>
+    <link rel="stylesheet" href="/CSS/reset.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body>
+    <header>
+        <h1>Donation site </h1>
+    </header>
+    <main>
+<div id ="formContainer" >
+    <form id="donaForm">
+        <label for="name" >Donar Name</label>
+        <input type="text" id="sname"><br>
+        <label for="amount">Amount</label>
+        <select name="select" id="samount" form="donaForm">
+            <option value="100">100jd</option>
+            <option value="500">500jd</option>
+            <option value="1000">1000jd</option>
+        </select>
+        <input type="submit" value="Submit">
+    </form>
+</div> 
+<div id="tableContaner">
+    <table id="table">
+        <tr>
+            <th>Donar Name</th>
+            <th>Donar Age</th>
+            <th>Amount</th>
+        </tr>
+    </table>
+    <p id="totals">Total</p>
+</div>
+
+    </main>
+    <footer>
+        <p>&copy; ASAC 2021</p>
+    </footer>
+<script src="/app.js"></script>
+</body>
+</html>
